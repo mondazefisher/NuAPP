@@ -94,7 +94,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
               _buildEmptyHistoryState()
             else
               ..._history.reversed.map((nutrition) => 
-                  _buildDayCard(nutrition)).toList(),
+                  _buildDayCard(nutrition)),
           ],
         ),
       ),
